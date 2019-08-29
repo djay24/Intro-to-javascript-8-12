@@ -9,12 +9,32 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <main class="container">
+        <div class="row">
+            <section class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 id="greeting"></h1>
+                        <ul id="groceryList">
+                            <li id="groceryItem1"></li>
+                            <li id="groceryItem2"></li>
+                            <li id="groceryItem3"></li>
+                            <li id="groceryItem4"></li>
+                            <li id="groceryItem5"></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="getGroceryItem">Add onto your groceries:</label>
+                        <input type="text" id="getGroceryItem">
+                        <button type="submit" onclick="" class="btn bg-primary">Submit</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 </html>
